@@ -6,9 +6,9 @@ import { Outlet } from "react-router-dom";
 
 export const App = () => {
   return (
-    <div className="relative min-h-[100vh]">
+    <div className="relative min-h-[100vh] bg-blue-tertiary">
       <Header />
-      <div className="mt-[-50px]">
+      <div className="mt-[-50px] mb-[-50px]">
         <Outlet />
       </div>
       <Footer />
