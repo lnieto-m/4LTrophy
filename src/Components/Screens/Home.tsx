@@ -3,8 +3,11 @@ import { Heading } from "@radix-ui/themes";
 import { InstagramEmbed } from "react-social-media-embed";
 import "react-vertical-timeline-component/style.min.css";
 import { Timeline } from "../Elements/Timeline";
+import { useTranslation } from "react-i18next";
 
 export const Home = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="w-full">
       <section
@@ -21,18 +24,14 @@ export const Home = () => {
       </section>
       <div className="flex max-w-[1024px] m-auto md:flex-row flex-col px-2 py-5">
         <section className="flex flex-col flex-1 justify-center p-3 text-gray-light">
-          <Heading className="my-2"> Follow us on instagram</Heading>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type specimen book. It has
-            survived not only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
+          <Heading className="my-2">{t("home.embed.title")}</Heading>
+          <p>{t("home.embed.description")}</p>
         </section>
-        <InstagramEmbed className="w-full flex-1" url="https://www.instagram.com/davidguetta/" />
+        <InstagramEmbed
+          lang={i18n.language}
+          className="w-full flex-1"
+          url="https://www.instagram.com/davidguetta/"
+        />
       </div>
       <Timeline />
     </div>

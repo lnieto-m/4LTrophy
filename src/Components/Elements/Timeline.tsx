@@ -3,14 +3,17 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { BellIcon, BoxIcon, MixIcon, SunIcon } from "@radix-ui/react-icons";
 import { Heading } from "@radix-ui/themes";
+import { useTranslation } from "react-i18next";
 
 export const Timeline = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="text-center bg-orange-primary">
-      <Heading size={"8"} className="pb-6 pt-6">
-        Roadmap
+    <div className="bg-orange-primary">
+      <Heading size={"8"} className="pb-6 pt-6 text-center">
+        {t("timeline.title")}
       </Heading>
-      <VerticalTimeline lineColor="#FF4444" className="mb-6">
+      <VerticalTimeline lineColor="#002347" className="mb-6">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
