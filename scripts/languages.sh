@@ -1,2 +1,2 @@
-curl https://localise.biz:443/api/export/locale/fr.json?key=$API_KEY > src/Assets/Localize/4l-trophy-fr-FR.json
-curl https://localise.biz:443/api/export/locale/en.json?key=$API_KEY > src/Assets/Localize/4l-trophy-en-US.json
+curl https://localise.biz:443/api/export/locale/fr-FR.json?key=$API_KEY > src/Assets/Localize/4l-trophy-fr-FR.json
+curl https://localise.biz:443/api/export/locale/en-US.json?key=$API_KEY > src/Assets/Localize/4l-trophy-en-US.json
