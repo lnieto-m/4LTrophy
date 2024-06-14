@@ -6,7 +6,7 @@ export const About = () => {
       <section
         style={{
           backgroundImage:
-            " linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/photo1.jpg')",
+            " linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/desert.png')",
         }}
         className="h-[600px] w-full bg-cover bg-center">
         <div className="flex flex-row-reverse max-w-[1024px] m-auto h-full pt-[50px]">

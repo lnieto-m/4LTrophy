@@ -13,12 +13,12 @@ export const Home = () => {
       <section
         style={{
           backgroundImage:
-            " linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/photo1.jpg')",
+            " linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/desert.png')",
         }}
         className="h-[600px] w-full bg-cover bg-center">
         <div className="flex flex-row-reverse max-w-[1024px] m-auto h-full pt-[96px] px-3 pb-7">
           <div className="h-full md:w-[512px] w-full opacity-80 bg-blue-primary text-gray-light p-5 rounded-xl">
-            Fo mettre des truks ici mek
+            <p>{t("home.embed.description")}</p> {/* Just to test loco */}
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ export const Home = () => {
         <InstagramEmbed
           lang={i18n.language}
           className="w-full flex-1"
-          url="https://www.instagram.com/davidguetta/"
+          url="https://www.instagram.com/odysseesirocco/"
         />
       </div>
       <Timeline />
