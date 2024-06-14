@@ -49,7 +49,9 @@ export const Header = () => {
         onTop ? "bg-none text-gray-dark" : "bg-orange-tertiary text-gray-light"
       }`}>
       <div className="max-w-[1024px] flex flex-row w-full">
-        <div>Logo Here</div>
+        <div>
+          <img src={`${process.env.PUBLIC_URL}/logoOS.png`} alt="Logo" className="logo" />
+        </div>
         <div className="flex flex-[2]"></div>
 
         <div className="md:flex hidden">
