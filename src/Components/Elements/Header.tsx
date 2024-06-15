@@ -28,13 +28,22 @@ export const Header = () => {
           size={"1"}
           onValueChange={(value) => i18n.changeLanguage(value)}>
           <Select.Trigger
-            className={onTop ? "bg-none text-gray-dark" : "bg-orange-tertiary text-gray-light"}
+            className={
+              onTop
+                ? "md:bg-opacity-0 bg-orange-tertiary text-gray-light"
+                : "bg-orange-tertiary text-gray-light"
+            }
           />
-          <Select.Content className={onTop ? "bg-gray-light" : "bg-orange-tertiary"}>
-            <Select.Item value="fr" className={onTop ? "text-gray-dark" : "text-gray-light"}>
+          <Select.Content
+            className={onTop ? "md:bg-gray-light bg-orange-tertiary" : "bg-orange-tertiary"}>
+            <Select.Item
+              value="fr"
+              className={onTop ? "md:text-gray-dark text-gray-light" : "text-gray-light"}>
               Fr
             </Select.Item>
-            <Select.Item value="en" className={onTop ? "text-gray-dark" : "text-gray-light"}>
+            <Select.Item
+              value="en"
+              className={onTop ? "md:text-gray-dark text-gray-light" : "text-gray-light"}>
               En
             </Select.Item>
           </Select.Content>
@@ -49,9 +58,15 @@ export const Header = () => {
         onTop ? "bg-none text-gray-dark" : "bg-orange-tertiary text-gray-light"
       }`}>
       <div className="max-w-[1024px] flex flex-row w-full">
-        <div>
-          <img src={`${process.env.PUBLIC_URL}/logoOS.png`} alt="Logo" className="logo" />
-        </div>
+        {!onTop && (
+          <div>
+            <img
+              src={`${process.env.PUBLIC_URL}/logotxt-removebg.png`}
+              alt="logo"
+              className="max-h-[24px]"
+            />
+          </div>
+        )}
         <div className="flex flex-[2]"></div>
 
         <div className="md:flex hidden">

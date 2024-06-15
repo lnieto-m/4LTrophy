@@ -16,13 +16,26 @@ export const Home = () => {
             " linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/desert.png')",
         }}
         className="h-[600px] w-full bg-cover bg-center">
-        <div className="flex flex-row-reverse max-w-[1024px] m-auto h-full pt-[96px] px-3 pb-7">
-          <div className="h-full md:w-[512px] w-full opacity-80 bg-blue-primary text-gray-light p-5 rounded-xl">
-            <p>{t("home.embed.description")}</p> {/* Just to test loco */}
+        <div className="flex flex-col max-w-[1024px] m-auto h-full pt-6 px-3 pb-7">
+          <div className="flex flex-row pb-3">
+            <div className="flex-1 flex-col flex justify-center">
+              <img
+                src={`${process.env.PUBLIC_URL}/logoOS.png`}
+                alt="Logo"
+                className="flex-1 max-h-[150px] max-w-[150px] self-center"
+              />
+            </div>
+
+            <div className="flex-1 md:flex hidden" />
+          </div>
+          <div className="flex flex-row-reverse">
+            <div className="h-min md:w-[512px] w-full opacity-80 bg-blue-primary text-gray-light p-5 rounded-xl align-middle">
+              <p>{t("home.embed.description")}</p> {/* Just to test loco */}
+            </div>
           </div>
         </div>
       </section>
-      <div className="flex max-w-[1024px] m-auto md:flex-row flex-col px-2 py-5">
+      <div className="flex max-w-[1024px] m-auto md:flex-row flex-col px-2 py-5 font-">
         <section className="flex flex-col flex-1 justify-center p-3 text-gray-light">
           <Heading className="my-2">{t("home.embed.title")}</Heading>
           <p>{t("home.embed.description")}</p>

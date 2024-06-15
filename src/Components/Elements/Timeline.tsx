@@ -16,8 +16,9 @@ export const Timeline = () => {
       <VerticalTimeline lineColor="#002347" className="mb-6">
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          textClassName="bg-blue-primary text-orange"
+          // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid #002347" }}
           date="2011 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<MixIcon />}>
