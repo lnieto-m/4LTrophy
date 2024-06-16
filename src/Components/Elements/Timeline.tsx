@@ -22,7 +22,7 @@ export const Timeline = () => {
       <VerticalTimeline lineColor="#002347" className="mb-6">
         <VerticalTimelineElement // 1 Association creation
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-tertiary text-gray-light"
+          textClassName="bg-blue-secondary text-gray-light"
           contentStyle={{
             borderRadius: '10px',
             border: '3px solid #0f9f4f',
@@ -42,7 +42,7 @@ export const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement // 2 Car purchase
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-tertiary text-gray-light"
+          textClassName="bg-blue-secondary text-gray-light"
           contentStyle={{
             borderRadius: '10px',
             border: '3px solid #0f9f4f',
@@ -62,7 +62,7 @@ export const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement // 3 Tour de France
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-tertiary text-gray-light"
+          textClassName="bg-blue-secondary text-gray-light"
           contentStyle={{
             borderRadius: '10px',
             border: '3px solid #002347',
@@ -82,7 +82,7 @@ export const Timeline = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement // 4 Departure
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-tertiary text-gray-light"
+          textClassName="bg-blue-secondary text-gray-light"
           contentStyle={{
             borderRadius: '10px',
             border: '3px solid #002347',
