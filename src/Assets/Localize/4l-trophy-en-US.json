@@ -1,6 +1,26 @@
 {
     "timeline": {
-        "title": "Roadmap"
+        "title": "Roadmap",
+        "1": {
+            "title": "Creation of the association",
+            "description": "On March 18, 2024, we officially created the \"Odyssée Sirocco\" association, launching our adventure towards the 4L Trophy. This was an essential step in structuring our project and beginning our preparations.",
+            "date": "March 18, 2024"
+        },
+        "2": {
+            "title": "Purchase and repatriation of 4L",
+            "description": "In May 2024, we found and bought our 4L! After the purchase, we organized the repatriation of our new car, marking the start of its transformation for the 4L Trophy.",
+            "date": "June 22, 2024"
+        },
+        "3": {
+            "title": "Stand at Tour de France 2024",
+            "description": "On July 7, 2024, find us in Celles-sur-Ource during a stage of the Tour de France. We'll be running a crêpe stand to raise funds for our 4L Trophy project. Come and taste delicious crêpes and support our humanitarian adventure, while enjoying the festive atmosphere of the Tour de France!",
+            "date": "July 7, 2024"
+        },
+        "4": {
+            "date": "February 20, 2025",
+            "title": "Raid start in Biarritz",
+            "description": "On February 20, 2025, we'll be setting off on the 4L Trophy from Biarritz. Arriving on February 19 for technical and administrative checks, we'll be ready to begin our adventure across the Moroccan desert. This is the long-awaited moment that marks the start of our journey!"
+        }
     },
     "header": {
         "home": {
@@ -20,6 +40,7 @@
         "embed": {
             "title": "Follow us on Instagram",
             "description": "Join us on our epic journey through the Moroccan desert. Discover our project, follow our preparation and support us in this exceptional adventure!"
-        }
+        },
+        "intro": "Welcome to our project for the 4L Trophy 2024. We are two cousins ​​determined to take on this humanitarian challenge aboard our 4L. Discover our route, follow our preparations, and support us in this adventure through the Moroccan desert!"
     }
 }
