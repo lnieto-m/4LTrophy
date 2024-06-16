@@ -1,7 +1,12 @@
 import React from "react";
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import { BellIcon, BoxIcon, MixIcon, SunIcon } from "@radix-ui/react-icons";
+import {
+  CheckCircledIcon,
+  CookieIcon,
+  IdCardIcon,
+  RocketIcon,
+} from "@radix-ui/react-icons";
 import { Heading } from "@radix-ui/themes";
 import { useTranslation } from "react-i18next";
 
@@ -9,82 +14,91 @@ export const Timeline = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-orange-primary">
-      <Heading size={"8"} className="pb-6 pt-6 text-center">
+    <div className="bg-gray-dark">
+      <div className="h-4 w-full bg-gradient-to-b from-gray-darker to-gray-dark"></div>
+      <Heading size={"8"} className="pb-6 pt-6 text-center text-gray-light">
         {t("timeline.title")}
       </Heading>
       <VerticalTimeline lineColor="#002347" className="mb-6">
-        <VerticalTimelineElement
+        <VerticalTimelineElement // 1 Association creation
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-primary text-orange"
-          // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid #002347" }}
-          date="2011 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<MixIcon />}>
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-          </p>
+          textClassName="bg-blue-tertiary text-gray-light"
+          contentStyle={{
+            borderRadius: '10px',
+            border: '3px solid #0f9f4f',
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)"
+          }}
+          contentArrowStyle={{ borderRight: "9px solid #0f9f4f" }}
+          date={t("timeline.1.date")}
+          iconStyle={{
+            background: "rgb(25,197,98)",
+            color: "#fbfbfb",
+            border: '3px solid #0f9f4f',
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)"
+          }}
+          icon={<IdCardIcon />}>
+          <h3 className="vertical-timeline-element-title">{t("timeline.1.title")}</h3>
+          <p>{t("timeline.1.description")}</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement // 2 Car purchase
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<SunIcon />}>
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-          <p>Creative Direction, User Experience, Visual Design, SEO, Online Marketing</p>
+          textClassName="bg-blue-tertiary text-gray-light"
+          contentStyle={{
+            borderRadius: '10px',
+            border: '3px solid #0f9f4f',
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)"
+          }}
+          contentArrowStyle={{ borderRight: "9px solid #0f9f4f" }}
+          date={t("timeline.2.date")}
+          iconStyle={{
+            background: "rgb(25,197,98)",
+            color: "#fbfbfb",
+            border: '3px solid #0f9f4f',
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)"
+          }}
+          icon={<CheckCircledIcon />}>
+          <h3 className="vertical-timeline-element-title">{t("timeline.2.title")}</h3>
+          <p>{t("timeline.2.description")}</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement // 3 Tour de France
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<BoxIcon />}>
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-          <p>User Experience, Visual Design</p>
+          textClassName="bg-blue-tertiary text-gray-light"
+          contentStyle={{
+            borderRadius: '10px',
+            border: '3px solid #002347',
+            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)"
+          }}
+          contentArrowStyle={{ borderRight: "9px solid #002347" }}
+          date={t("timeline.3.date")}
+          iconStyle={{
+            background: "rgb(0, 63, 125)",
+            color: "#fbfbfb",
+            border: '3px solid #002347',
+            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)"
+          }}
+          icon={<CookieIcon />}>
+          <h3 className="vertical-timeline-element-title">{t("timeline.3.title")}</h3>
+          <p>{t("timeline.3.description")}</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        <VerticalTimelineElement // 4 Departure
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<BellIcon />}>
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<BellIcon />}>
-          <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<BellIcon />}>
-          <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<BellIcon />}>
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-          <p>Creative Direction, Visual Design</p>
+          textClassName="bg-blue-tertiary text-gray-light"
+          contentStyle={{
+            borderRadius: '10px',
+            border: '3px solid #002347',
+            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)"
+          }}
+          contentArrowStyle={{ borderRight: "9px solid #002347" }}
+          date={t("timeline.4.date")}
+          iconStyle={{
+            background: "rgb(0, 63, 125)",
+            color: "#fbfbfb",
+            border: '3px solid #002347',
+            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)"
+          }}
+          icon={<RocketIcon />}>
+          <h3 className="vertical-timeline-element-title">{t("timeline.4.title")}</h3>
+          <p>{t("timeline.4.description")}</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
