@@ -9,7 +9,6 @@ import { useMediaQuery } from "../../Utils/Hooks/mediaQuery";
 export const Timeline = () => {
   const { t } = useTranslation();
   const isSmallScreen = useMediaQuery("(max-width: 1170px)");
-  const isMobileSize = useMediaQuery("(max-width: 486px)");
 
   return (
     <div className="bg-gray-dark">
@@ -21,7 +20,9 @@ export const Timeline = () => {
         {/* 1 Association creation */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
+          textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
+            isSmallScreen && "hover:bg-blue-tertiary"
+          }`}
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #0f9f4f",
@@ -56,7 +57,9 @@ export const Timeline = () => {
         {/* 2 Car purchase */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
+          textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
+            isSmallScreen && "hover:bg-blue-tertiary"
+          }`}
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #0f9f4f",
@@ -91,7 +94,9 @@ export const Timeline = () => {
         {/* 3 Tour de France */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
+          textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
+            isSmallScreen && "hover:bg-blue-tertiary"
+          }`}
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #002347",
@@ -126,7 +131,9 @@ export const Timeline = () => {
         {/* 4 Departure */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
+          textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
+            isSmallScreen && "hover:bg-blue-tertiary"
+          }`}
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #002347",
