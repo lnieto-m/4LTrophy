@@ -2,13 +2,14 @@ import React from "react";
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { CheckCircledIcon, CookieIcon, IdCardIcon, RocketIcon } from "@radix-ui/react-icons";
-import { Heading, HoverCard, Popover } from "@radix-ui/themes";
+import { Heading, Popover } from "@radix-ui/themes";
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "../../Utils/Hooks/mediaQuery";
 
 export const Timeline = () => {
   const { t } = useTranslation();
   const isSmallScreen = useMediaQuery("(max-width: 1170px)");
+  const isMobileSize = useMediaQuery("(max-width: 486px)");
 
   return (
     <div className="bg-gray-dark">
@@ -20,7 +21,7 @@ export const Timeline = () => {
         {/* 1 Association creation */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light hover:bg-blue-tertiary transition-colors	p-0"
+          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #0f9f4f",
@@ -38,7 +39,7 @@ export const Timeline = () => {
           icon={<IdCardIcon />}>
           <Popover.Root>
             <Popover.Trigger>
-              <button className="w-full">
+              <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.1.title")}</h3>
                 </div>
@@ -46,7 +47,7 @@ export const Timeline = () => {
             </Popover.Trigger>
             <Popover.Content
               side={isSmallScreen ? "bottom" : "right"}
-              className="bg-blue-secondary text-gray-light">
+              className="bg-blue-secondary text-gray-light max-w-[350px]">
               <p className="">{t("timeline.1.description")}</p>
             </Popover.Content>
           </Popover.Root>
@@ -55,7 +56,7 @@ export const Timeline = () => {
         {/* 2 Car purchase */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light hover:bg-blue-tertiary transition-colors	p-0"
+          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #0f9f4f",
@@ -73,7 +74,7 @@ export const Timeline = () => {
           icon={<CheckCircledIcon />}>
           <Popover.Root>
             <Popover.Trigger>
-              <button className="w-full">
+              <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.2.title")}</h3>
                 </div>
@@ -81,7 +82,7 @@ export const Timeline = () => {
             </Popover.Trigger>
             <Popover.Content
               side={isSmallScreen ? "bottom" : "left"}
-              className="bg-blue-secondary text-gray-light">
+              className="bg-blue-secondary text-gray-light max-w-[350px]">
               <p className="">{t("timeline.2.description")}</p>
             </Popover.Content>
           </Popover.Root>
@@ -90,7 +91,7 @@ export const Timeline = () => {
         {/* 3 Tour de France */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light hover:bg-blue-tertiary transition-colors	p-0"
+          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #002347",
@@ -108,7 +109,7 @@ export const Timeline = () => {
           icon={<CookieIcon />}>
           <Popover.Root>
             <Popover.Trigger>
-              <button className="w-full">
+              <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.3.title")}</h3>
                 </div>
@@ -116,7 +117,7 @@ export const Timeline = () => {
             </Popover.Trigger>
             <Popover.Content
               side={isSmallScreen ? "bottom" : "right"}
-              className="bg-blue-secondary text-gray-light">
+              className="bg-blue-secondary text-gray-light max-w-[350px]">
               <p className="">{t("timeline.3.description")}</p>
             </Popover.Content>
           </Popover.Root>
@@ -125,7 +126,7 @@ export const Timeline = () => {
         {/* 4 Departure */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          textClassName="bg-blue-secondary text-gray-light hover:bg-blue-tertiary transition-colors	p-0"
+          textClassName="bg-blue-secondary text-gray-light p-0 hover:bg-blue-tertiary transition-colors"
           contentStyle={{
             borderRadius: "10px",
             border: "3px solid #002347",
@@ -143,7 +144,7 @@ export const Timeline = () => {
           icon={<RocketIcon />}>
           <Popover.Root>
             <Popover.Trigger>
-              <button className="w-full">
+              <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.4.title")}</h3>
                 </div>
@@ -151,7 +152,7 @@ export const Timeline = () => {
             </Popover.Trigger>
             <Popover.Content
               side={isSmallScreen ? "bottom" : "left"}
-              className="bg-blue-secondary text-gray-light">
+              className="bg-blue-secondary text-gray-light max-w-[350px]">
               <p>{t("timeline.4.description")}</p>
             </Popover.Content>
           </Popover.Root>
