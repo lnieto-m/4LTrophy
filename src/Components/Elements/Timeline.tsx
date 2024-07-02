@@ -43,6 +43,7 @@ export const Timeline = () => {
               <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.1.title")}</h3>
+                  <p>{t("timeline.1.description").split(/(?<=[.?!])\s+/)[0]}</p>
                 </div>
               </button>
             </Popover.Trigger>
@@ -80,6 +81,7 @@ export const Timeline = () => {
               <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.2.title")}</h3>
+                  <p>{t("timeline.2.description").split(/(?<=[.?!])\s+/)[0]}</p>
                 </div>
               </button>
             </Popover.Trigger>
@@ -117,6 +119,7 @@ export const Timeline = () => {
               <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.3.title")}</h3>
+                  <p>{t("timeline.3.description").split(/(?<=[.?!])\s+/)[0]}</p>
                 </div>
               </button>
             </Popover.Trigger>
@@ -154,6 +157,7 @@ export const Timeline = () => {
               <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
                   <h3 className="vertical-timeline-element-title">{t("timeline.4.title")}</h3>
+                  <p>{t("timeline.4.description").split(/(?<=[.?!])\s+/)[0]}</p>
                 </div>
               </button>
             </Popover.Trigger>
