@@ -16,10 +16,15 @@
             "description": "Le 7 juillet 2024, retrouvez-nous à Celles-sur-Ource lors d'une étape du Tour de France. Nous tiendrons un stand de crêpes pour financer notre projet 4L Trophy. Venez déguster de délicieuses crêpes et soutenir notre aventure humanitaire tout en profitant de l'ambiance festive du Tour de France!",
             "date": "7 juillet 2024"
         },
-        "4": {
+        "5": {
             "date": "20 février 2025",
             "title": "Départ du Raid à Biarritz",
             "description": "Le 20 février 2025, nous prendrons le départ du 4L Trophy à Biarritz. Arrivés dès le 19 février pour les contrôles techniques et administratifs, nous serons prêts à commencer cette aventure à travers le désert marocain. C'est le moment tant attendu qui marque le début de notre périple !"
+        },
+        "4": {
+            "title": "Préparation de la 4L",
+            "date": "2024-2025",
+            "description": "Jusqu'au début de la course, nous allons préparer notre 4L pour le 4L Trophy. Cette étape cruciale comprendra la restauration mécanique, la personnalisation de la carrosserie et l'installation de l'équipement nécessaire pour affronter le désert marocain. Suivez nos progrès et découvrez chaque étape de cette transformation !"
         }
     },
     "header": {
@@ -39,8 +44,8 @@
     "home": {
         "embed": {
             "title": "Suivez nous sur Instagram",
-            "description": "Rejoignez-nous dans notre voyage épique à travers le désert marocain. Découvrez notre projet, suivez notre préparation et soutenez-nous dans cette aventure exceptionnelle !"
+            "description": "Participez à notre voyage à travers le désert marocain. Découvrez notre projet, suivez chaque étape de notre préparation, et rejoignez-nous dans cette aventure exceptionnelle !"
         },
-        "intro": "Bienvenue dans notre projet pour le 4L Trophy 2024. Nous sommes deux cousins déterminés à relever ce défi humanitaire à bord de notre 4L. Découvrez notre parcours, suivez nos préparatifs, et soutenez-nous dans cette aventure à travers le désert marocain !"
+        "intro": "Deux cousins, une 4L, et une aventure inoubliable à travers le désert marocain. Suivez notre préparation, nos progrès et soutenez-nous tout au long de ce défi humanitaire."
     }
 }

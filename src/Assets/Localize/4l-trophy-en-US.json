@@ -16,10 +16,15 @@
             "description": "On July 7, 2024, find us in Celles-sur-Ource during a stage of the Tour de France. We'll be running a crêpe stand to raise funds for our 4L Trophy project. Come and taste delicious crêpes and support our humanitarian adventure, while enjoying the festive atmosphere of the Tour de France!",
             "date": "July 7, 2024"
         },
-        "4": {
+        "5": {
             "date": "February 20, 2025",
             "title": "Raid start in Biarritz",
             "description": "On February 20, 2025, we'll be setting off on the 4L Trophy from Biarritz. Arriving on February 19 for technical and administrative checks, we'll be ready to begin our adventure across the Moroccan desert. This is the long-awaited moment that marks the start of our journey!"
+        },
+        "4": {
+            "title": "4L preparation",
+            "date": "2024-2025",
+            "description": "Right up until the start of the race, we'll be preparing our 4L for the 4L Trophy. This crucial stage will include mechanical restoration, body customization and installation of the equipment needed to tackle the Moroccan desert. Follow our progress and discover every step of this transformation!"
         }
     },
     "header": {
@@ -39,8 +44,8 @@
     "home": {
         "embed": {
             "title": "Follow us on Instagram",
-            "description": "Join us on our epic journey through the Moroccan desert. Discover our project, follow our preparation and support us in this exceptional adventure!"
+            "description": "Join us on our journey through the Moroccan desert. Find out more about our project, follow every step of our preparations, and join us on this exceptional adventure!"
         },
-        "intro": "Welcome to our project for the 4L Trophy 2024. We are two cousins ​​determined to take on this humanitarian challenge aboard our 4L. Discover our route, follow our preparations, and support us in this adventure through the Moroccan desert!"
+        "intro": "Two cousins, one 4L, and an unforgettable adventure across the Moroccan desert. Follow our preparations, our progress and support us throughout this humanitarian challenge."
     }
 }
