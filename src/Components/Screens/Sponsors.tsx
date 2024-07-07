@@ -53,8 +53,8 @@ export const Sponsors = () => {
           </Heading>
           <div dangerouslySetInnerHTML={{ __html: t("sponsor.benefits.description") }} />
           <div className="flex justify-center mt-4">
-            <img src="/emplacement_av.png" alt="Image 1" className="w-1/4 mr-2" />
-            <img src="/emplacement_ar.png" alt="Image 2" className="w-1/4" />
+            <img src="/emplacement_av.png" alt="Image 1" className="w-1/3 mr-2" />
+            <img src="/emplacement_ar.png" alt="Image 2" className="w-1/3" />
           </div>
         </div>
 
