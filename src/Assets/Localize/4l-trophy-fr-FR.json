@@ -57,12 +57,28 @@
         },
         "benefits": {
             "title": "Contreparties pour les Sponsors",
-            "description": "<ul>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Communication régulière :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Mises à jour fréquentes sur l'avancement de notre projet et la visibilité de votre contribution.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Engagement communautaire :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Participation à un projet humanitaire et solidaire reconnu.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 10px;\">\n    <strong>Visibilité:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Votre logo et votre nom seront visibles sur nos réseaux sociaux, notre site web, et notre voiture. (sauf emplacement réservé a l'organisation)\n    </div>\n  </li>\n</ul>"
+            "description": "<ul>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Communication régulière:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Mises à jour fréquentes sur l'avancement de notre projet et la visibilité de votre contribution.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Engagement communautaire:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Participation à un projet humanitaire et solidaire reconnu.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 10px;\">\n    <strong>Visibilité:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Votre logo et votre nom seront visibles sur nos réseaux sociaux, notre site web, et notre voiture. (sauf emplacement réservé a l'organisation)\n    </div>\n  </li>\n</ul>"
         },
         "how": {
             "title": "Comment nous soutenir ?",
             "description": "<p style=\"margin-bottom: 15px;\">\n  Si vous êtes intéressé par le sponsoring ou si vous souhaitez discuter d'un partenariat sur mesure, n'hésitez pas à nous contacter. Nous serions ravis de collaborer avec vous pour faire de cette aventure un succès partagé.\n</p>\n<p style=\"margin-bottom: 15px;\">\n  Pour plus d'informations sur les options de sponsoring et les contributions, veuillez nous contacter à l'adresse suivante :\n</p>\n<p style=\"margin-bottom: 15px;\">\n  <strong>Email:</strong> odyssee.sirocco@gmail.com\n</p>"
         },
         "thx": "Merci pour votre soutien !"
+    },
+    "about": {
+        "intro": "Ici, vous découvrirez qui nous sommes, notre mission, et pourquoi nous avons choisi de participer au 4L Trophy.\nNous espérons que cette page vous permettra de mieux comprendre notre engagement et notre passion pour cette aventure humanitaire et sportive.",
+        "title": "À propos de l'Odyssée Sirocco",
+        "who": {
+            "title": "Qui sommes-nous ?",
+            "description": "<p style=\"margin-bottom: 15px;\">\n    Nous sommes deux cousins, <strong>Adrien</strong> et <strong>Aurélien</strong>, qui ont décidé de se lancer un défi et de faire quelque chose d'utile.\n</p>\n<p style=\"margin-bottom: 15px;\">\n    Notre équipe, l'Odyssée Sirocco, est née de notre désir commun de participer au <strong>4L Trophy</strong>, une aventure humanitaire et sportive unique en son genre.\n</p>\n<p style=\"margin-bottom: 15px;\">\n    Nous n'avons jamais eu l'occasion de réaliser un projet ensemble auparavant, et le 4L Trophy représente pour nous une opportunité parfaite de renforcer nos liens tout en faisant la différence en participant à quelque chose de grand.\n</p>"
+        },
+        "why": {
+            "description": "<p style=\"margin-bottom: 15px;\">\n    Le 4L Trophy est une opportunité unique de repousser nos limites, de découvrir de nouveaux horizons et de faire preuve de solidarité. \n    À bord de notre mythique Renault 4L, nous allons traverser le désert marocain, relever des défis quotidiens et vivre des moments inoubliables. \n    Cette aventure nous permet de nous dépasser, de renforcer notre esprit d'équipe et de vivre des expériences qui resteront gravées dans nos mémoires.\n</p>",
+            "title": "Pourquoi le 4L Trophy ?"
+        },
+        "prepa": {
+            "title": "La préparation : Une aventure inédite",
+            "description": "<ul>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Préparation de la voiture :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Nous avons acheté une Renault 4L, et nous allons passer des heures à la rénover et à la customiser pour qu'elle soit prête à affronter les défis du désert marocain.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Recherche de sponsors :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Trouver des partenaires pour nous soutenir financièrement est un défi en soi. Nous avons créé une association et allons présenter notre projet à de nombreuses entreprises et individus pour créer des partenariats significatifs.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Organisation d'événements :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Pour lever des fonds et sensibiliser à notre cause, nous allons organiser divers événements, tels que des ventes de crêpes, des brocantes, des soirées de cinéma en plein air et plus encore.\n    </div>\n  </li>\n</ul>"
+        }
     }
 }

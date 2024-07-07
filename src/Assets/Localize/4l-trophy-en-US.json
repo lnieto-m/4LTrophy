@@ -64,5 +64,21 @@
             "description": "<p style=\"margin-bottom: 15px;\">\n  If you are interested in sponsoring us or if you would like to discuss a customized partnership, please do not hesitate to contact us. We would be delighted to collaborate with you to make this adventure a shared success.\n</p>\n<p style=\"margin-bottom: 15px;\">\n  For more information on sponsorship options and contributions, please contact us at the following address:\n</p>\n<p style=\"margin-bottom: 15px;\">\n  <strong>Email:</strong> odyssee.sirocco@gmail.com\n</p>"
         },
         "thx": "Thanks for your support!"
+    },
+    "about": {
+        "intro": "Here you can find out more about us, our mission and why we've chosen to take part in the 4L Trophy.\nWe hope this page will give you a better understanding of our commitment and passion for this humanitarian and sporting adventure.",
+        "title": "About Odyssée Sirocco",
+        "who": {
+            "title": "Who are we?",
+            "description": "<p style=\"margin-bottom: 15px;\">\n    We are two cousins, <strong>Adrien</strong> and <strong>Aurélien</strong>, who have decided to take on a challenge and do something meaningful.\n</p>\n<p style=\"margin-bottom: 15px;\">\n    Our team, Odyssée Sirocco, was born from our shared desire to participate in the <strong>4L Trophy</strong>, a unique humanitarian and sporting adventure.\n</p>\n<p style=\"margin-bottom: 15px;\">\n    We have never had the opportunity to work on a project together before, and the 4L Trophy represents a perfect opportunity for us to strengthen our bond while making a difference by participating in something big.\n</p>"
+        },
+        "why": {
+            "description": "<p style=\"margin-bottom: 15px;\">\n    The 4L Trophy is a unique opportunity to push our limits, discover new horizons, and demonstrate solidarity. \n    Aboard our iconic Renault 4L, we will traverse the Moroccan desert, face daily challenges, and create unforgettable memories. \n    This adventure allows us to surpass ourselves, strengthen our team spirit, and live experiences that will remain etched in our memories.\n</p>",
+            "title": "Why the 4L Trophy?"
+        },
+        "prepa": {
+            "title": "The Preparation: An Unprecedented Adventure",
+            "description": "<ul>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Car Preparation:</strong><br>\n    <div style=\"margin-left: 1em;\">\n       We've bought a Renault 4L, and we're going to spend hours renovating and customizing it so that it's ready to take on the challenges of the Moroccan desert.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Sponsorship Search:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Finding partners to support us financially is a challenge in itself. We have created an association and will be presenting our project to a number of companies and individuals to create meaningful partnerships.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Event Organization:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      To raise funds and awareness of our cause, we'll be organizing a variety of events, including crêpes sales, flea markets, open-air cinema evenings and more.\n    </div>\n  </li>\n</ul>"
+        }
     }
 }
