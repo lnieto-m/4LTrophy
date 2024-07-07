@@ -60,6 +60,16 @@ export const Sponsors = () => {
 
         <div className="bg-gray-darker p-4 border border-gray mb-4 rounded-lg">
           <Heading size="4" className="pt-1 pb-2 text-gray-light">
+            {t("sponsor.budget.title")}
+          </Heading>
+          <div dangerouslySetInnerHTML={{ __html: t("sponsor.budget.description") }} />
+          <div className="flex justify-center mt-4">
+            <img src="/budget_bg.png" alt="Image 1" className="w-1/3 opacity-80 rounded-lg" />
+          </div>
+        </div>
+
+        <div className="bg-gray-darker p-4 border border-gray mb-4 rounded-lg">
+          <Heading size="4" className="pt-1 pb-2 text-gray-light">
             {t("sponsor.how.title")}
           </Heading>
           <div dangerouslySetInnerHTML={{ __html: t("sponsor.how.description") }} />

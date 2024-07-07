@@ -63,7 +63,11 @@
             "title": "How can you support us?",
             "description": "<p style=\"margin-bottom: 15px;\">\n  If you are interested in sponsoring us or if you would like to discuss a customized partnership, please do not hesitate to contact us. We would be delighted to collaborate with you to make this adventure a shared success.\n</p>\n<p style=\"margin-bottom: 15px;\">\n  For more information on sponsorship options and contributions, please contact us at the following address:\n</p>\n<p style=\"margin-bottom: 15px;\">\n  <strong>Email:</strong> odyssee.sirocco@gmail.com\n</p>"
         },
-        "thx": "Thanks for your support!"
+        "thx": "Thanks for your support!",
+        "budget": {
+            "title": "Estimated budget for the 4L Trophy",
+            "description": "To successfully complete our 4L Trophy adventure, we need to budget for various essential aspects of preparing for and taking part in this humanitarian race. The chart below shows a breakdown of estimated costs, including the purchase of the 4L, registration fees, mandatory equipment, gas, tolls and much more. Your support as a sponsor will help us cover these expenses and guarantee our successful participation in this adventure."
+        }
     },
     "about": {
         "intro": "Here you can find out more about us, our mission and why we've chosen to take part in the 4L Trophy.\nWe hope this page will give you a better understanding of our commitment and passion for this humanitarian and sporting adventure.",
