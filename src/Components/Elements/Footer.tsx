@@ -11,7 +11,7 @@ export const Footer = () => {
             <InstagramLogoIcon width={20} height={20} />
           </a>
         </div>
-        <div className="w-full max-w-[1024px]">© Pepito Corp.</div>
+        <div className="w-full max-w-[1024px]">© Ox & Pepito Corp.</div>
       </div>
     </div>
   );
