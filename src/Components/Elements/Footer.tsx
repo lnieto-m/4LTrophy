@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="h-7 w-full text-gray-light bg-gray-dark p-5 text-right flex justify-center">
         <div className="flex flex-row justify-center items-center">
           <a href="https://www.instagram.com/odysseesirocco/">
-            <InstagramLogoIcon width={20} height={20} />
+            <InstagramLogoIcon width={30} height={30} />
           </a>
         </div>
         <div className="w-full max-w-[1024px]">© Ox & Pepito Corp.</div>
