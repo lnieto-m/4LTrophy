@@ -14,7 +14,7 @@ export const Home = () => {
         style={{
           backgroundImage:
             "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/desert.png')",
-          maxHeight: "450px",
+          maxHeight: "470px",
         }}
         className="h-[600px] w-full bg-cover bg-center">
         <div className="flex flex-col max-w-[1024px] m-auto h-full pt-6 px-3 pb-7">
@@ -37,7 +37,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <div className="h-4 w-full bg-gradient-to-b from-gray-dark to-gray-darker"></div>
+      <div className="h-4 w-full bg-gradient-to-b from-gray-darker to-gray-dark"></div>
       <div className="flex max-w-[1024px] m-auto md:flex-row flex-col px-2 py-5 font-">
         <section className="flex flex-col flex-1 justify-center p-3 text-gray-light">
           <Heading className="my-2">{t("home.embed.title")}</Heading>

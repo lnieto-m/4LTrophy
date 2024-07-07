@@ -47,5 +47,22 @@
             "description": "Participez à notre voyage à travers le désert marocain. Découvrez notre projet, suivez chaque étape de notre préparation, et rejoignez-nous dans cette aventure exceptionnelle !"
         },
         "intro": "Deux cousins, une 4L, et une aventure inoubliable à travers le désert marocain. Suivez notre préparation, nos progrès et soutenez-nous tout au long de ce défi humanitaire."
+    },
+    "sponsor": {
+        "title": "Devenez Sponsor de l'Odyssée Sirocco",
+        "intro": "Bienvenue sur la page des sponsors ! Nous sommes ravis de vous offrir l'opportunité de soutenir notre aventure au 4L Trophy. Votre aide est essentielle pour nous permettre de réaliser ce projet et de contribuer à une cause humanitaire.",
+        "why": {
+            "description": "<ul>\n  <li style=\"margin-bottom: 10px;\">\n    <strong>Impact humanitaire:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      En nous soutenant, vous participez à une aventure solidaire qui aide à fournir des fournitures scolaires et des services aux enfants du Maroc.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 10px;\">\n    <strong>Engagement:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Associez votre marque à une aventure sportive, jeune et dynamique qui valorise l'esprit d'équipe et la solidarité.\n    </div>\n  </li>\n</ul>",
+            "title": "Pourquoi nous sponsoriser ?"
+        },
+        "benefits": {
+            "title": "Contreparties pour les Sponsors",
+            "description": "<ul>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Communication régulière :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Mises à jour fréquentes sur l'avancement de notre projet et la visibilité de votre contribution.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 15px;\">\n    <strong>Engagement communautaire :</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Participation à un projet humanitaire et solidaire reconnu.\n    </div>\n  </li>\n  <li style=\"margin-bottom: 10px;\">\n    <strong>Visibilité:</strong><br>\n    <div style=\"margin-left: 1em;\">\n      Votre logo et votre nom seront visibles sur nos réseaux sociaux, notre site web, et notre voiture. (sauf emplacement réservé a l'organisation)\n    </div>\n  </li>\n</ul>"
+        },
+        "how": {
+            "title": "Comment nous soutenir ?",
+            "description": "<p style=\"margin-bottom: 15px;\">\n  Si vous êtes intéressé par le sponsoring ou si vous souhaitez discuter d'un partenariat sur mesure, n'hésitez pas à nous contacter. Nous serions ravis de collaborer avec vous pour faire de cette aventure un succès partagé.\n</p>\n<p style=\"margin-bottom: 15px;\">\n  Pour plus d'informations sur les options de sponsoring et les contributions, veuillez nous contacter à l'adresse suivante :\n</p>\n<p style=\"margin-bottom: 15px;\">\n  <strong>Email:</strong> odyssee.sirocco@gmail.com\n</p>"
+        },
+        "thx": "Merci pour votre soutien !"
     }
 }

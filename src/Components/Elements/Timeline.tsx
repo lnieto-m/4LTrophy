@@ -11,8 +11,8 @@ export const Timeline = () => {
   const isSmallScreen = useMediaQuery("(max-width: 1170px)");
 
   return (
-    <div className="bg-gray-dark">
-      <div className="h-4 w-full bg-gradient-to-b from-gray-darker to-gray-dark"></div>
+    <div className="bg-gray-darker">
+      <div className="h-4 w-full bg-gradient-to-b from-gray-dark to-gray-darker"></div>
       <Heading size={"8"} className="pb-6 pt-6 text-center text-gray-light">
         {t("timeline.title")}
       </Heading>
