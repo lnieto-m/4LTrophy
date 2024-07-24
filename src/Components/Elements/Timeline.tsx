@@ -1,7 +1,7 @@
 import React from "react";
 
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import { CheckCircledIcon, CookieIcon, IdCardIcon, RocketIcon } from "@radix-ui/react-icons";
+import { CheckCircledIcon, CookieIcon, GearIcon, IdCardIcon, MoonIcon, RocketIcon } from "@radix-ui/react-icons";
 import { Heading, Popover } from "@radix-ui/themes";
 import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "../../Utils/Hooks/mediaQuery";
@@ -101,17 +101,17 @@ export const Timeline = () => {
           }`}
           contentStyle={{
             borderRadius: "10px",
-            border: "3px solid #002347",
-            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+            border: "3px solid #0f9f4f",
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)",
           }}
-          contentArrowStyle={{ borderRight: "9px solid #002347" }}
+          contentArrowStyle={{ borderRight: "9px solid #0f9f4f" }}
           date={t("timeline.3.date")}
           dateClassName="tl:py-2 tl:px-0 px-4 pt-0 pb-4"
           iconStyle={{
-            background: "rgb(0, 63, 125)",
+            background: "rgb(25,197,98)",
             color: "#fbfbfb",
-            border: "3px solid #002347",
-            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+            border: "3px solid #0f9f4f",
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)",
           }}
           icon={<CookieIcon />}>
           <Popover.Root>
@@ -131,7 +131,7 @@ export const Timeline = () => {
           </Popover.Root>
         </VerticalTimelineElement>
 
-        {/* 4 Prepa */}
+        {/* 4 Bubbles */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
@@ -151,7 +151,7 @@ export const Timeline = () => {
             border: "3px solid #002347",
             boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
           }}
-          icon={<RocketIcon />}>
+          icon={<MoonIcon />}>
           <Popover.Root>
             <Popover.Trigger>
               <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
@@ -169,7 +169,7 @@ export const Timeline = () => {
           </Popover.Root>
         </VerticalTimelineElement>
 
-        {/* 5 Departure */}
+        {/* P Prepa */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
@@ -181,7 +181,45 @@ export const Timeline = () => {
             boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
           }}
           contentArrowStyle={{ borderRight: "9px solid #002347" }}
-          date={t("timeline.5.date")}
+          date={t("timeline.P.date")}
+          dateClassName="tl:py-2 tl:px-0 px-4 pt-0 pb-4"
+          iconStyle={{
+            background: "rgb(0, 63, 125)",
+            color: "#fbfbfb",
+            border: "3px solid #002347",
+            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+          }}
+          icon={<GearIcon />}>
+          <Popover.Root>
+            <Popover.Trigger>
+              <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
+                <div className="m-4">
+                  <h3 className="vertical-timeline-element-title">{t("timeline.P.title")}</h3>
+                  <p>{t("timeline.P.description").split(/(?<=[.?!])\s+/)[0]}</p>
+                </div>
+              </button>
+            </Popover.Trigger>
+            <Popover.Content
+              side={isSmallScreen ? "bottom" : "left"}
+              className="bg-blue-secondary text-gray-light max-w-[350px]">
+              <p>{t("timeline.P.description")}</p>
+            </Popover.Content>
+          </Popover.Root>
+        </VerticalTimelineElement>
+
+        {/* E Departure */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
+            isSmallScreen && "hover:bg-blue-tertiary"
+          }`}
+          contentStyle={{
+            borderRadius: "10px",
+            border: "3px solid #002347",
+            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+          }}
+          contentArrowStyle={{ borderRight: "9px solid #002347" }}
+          date={t("timeline.E.date")}
           dateClassName="tl:py-2 tl:px-0 px-4 pt-0 pb-4"
           iconStyle={{
             background: "rgb(0, 63, 125)",
@@ -194,15 +232,15 @@ export const Timeline = () => {
             <Popover.Trigger>
               <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
                 <div className="m-4">
-                  <h3 className="vertical-timeline-element-title">{t("timeline.5.title")}</h3>
-                  <p>{t("timeline.5.description").split(/(?<=[.?!])\s+/)[0]}</p>
+                  <h3 className="vertical-timeline-element-title">{t("timeline.E.title")}</h3>
+                  <p>{t("timeline.E.description").split(/(?<=[.?!])\s+/)[0]}</p>
                 </div>
               </button>
             </Popover.Trigger>
             <Popover.Content
               side={isSmallScreen ? "bottom" : "left"}
               className="bg-blue-secondary text-gray-light max-w-[350px]">
-              <p>{t("timeline.5.description")}</p>
+              <p>{t("timeline.E.description")}</p>
             </Popover.Content>
           </Popover.Root>
         </VerticalTimelineElement>

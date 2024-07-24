@@ -13,18 +13,23 @@
         },
         "3": {
             "title": "Stand au Tour de France 2024",
-            "description": "Le 7 juillet 2024, retrouvez-nous à Celles-sur-Ource lors d'une étape du Tour de France. Nous tiendrons un stand de crêpes pour financer notre projet 4L Trophy. Venez déguster de délicieuses crêpes et soutenir notre aventure humanitaire tout en profitant de l'ambiance festive du Tour de France!",
+            "description": "Le 7 juillet 2024, nous étions à Celles-sur-Ource lors d'une étape du Tour de France avec un stand de crêpes pour financer notre projet 4L Trophy. Vous avez été nombreux a venir déguster de délicieuses crêpes et soutenir notre aventure humanitaire tout en profitant de l'ambiance festive du Tour de France!",
             "date": "7 juillet 2024"
         },
-        "5": {
+        "E": {
             "date": "20 février 2025",
             "title": "Départ du Raid à Biarritz",
             "description": "Le 20 février 2025, nous prendrons le départ du 4L Trophy à Biarritz. Arrivés dès le 19 février pour les contrôles techniques et administratifs, nous serons prêts à commencer cette aventure à travers le désert marocain. C'est le moment tant attendu qui marque le début de notre périple !"
         },
-        "4": {
+        "P": {
             "title": "Préparation de la 4L",
             "date": "2024-2025",
             "description": "Jusqu'au début de la course, nous allons préparer notre 4L pour le 4L Trophy. Cette étape cruciale comprendra la restauration mécanique, la personnalisation de la carrosserie et l'installation de l'équipement nécessaire pour affronter le désert marocain. Suivez nos progrès et découvrez chaque étape de cette transformation !"
+        },
+        "4": {
+            "date": "23 août 2024",
+            "title": "Soirée Bulles et Délices",
+            "description": "Rejoignez-nous pour une soirée sous le signe de la convivialité et de la gourmandise ! L'Odyssée Sirocco organise une \"Soirée Bulles et Délices\" pour soutenir notre participation au 4L Trophy 2024. Cet événement festif se tiendra le vendredi 23 août 2024 au Pressoir Communal de Celles-sur-Ource, situé au 86 Grande Rue."
         }
     },
     "header": {

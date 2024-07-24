@@ -13,18 +13,23 @@
         },
         "3": {
             "title": "Stand at Tour de France 2024",
-            "description": "On July 7, 2024, find us in Celles-sur-Ource during a stage of the Tour de France. We'll be running a crêpe stand to raise funds for our 4L Trophy project. Come and taste delicious crêpes and support our humanitarian adventure, while enjoying the festive atmosphere of the Tour de France!",
+            "description": "On July 7, 2024, we were in Celles-sur-Ource during a stage of the Tour de France with a crepe stand to fund our 4L Trophy project. Many of you came to taste delicious crêpes and support our humanitarian adventure, while enjoying the festive atmosphere of the Tour de France!",
             "date": "July 7, 2024"
         },
-        "5": {
+        "E": {
             "date": "February 20, 2025",
             "title": "Raid start in Biarritz",
             "description": "On February 20, 2025, we'll be setting off on the 4L Trophy from Biarritz. Arriving on February 19 for technical and administrative checks, we'll be ready to begin our adventure across the Moroccan desert. This is the long-awaited moment that marks the start of our journey!"
         },
-        "4": {
+        "P": {
             "title": "4L preparation",
             "date": "2024-2025",
             "description": "Right up until the start of the race, we'll be preparing our 4L for the 4L Trophy. This crucial stage will include mechanical restoration, body customization and installation of the equipment needed to tackle the Moroccan desert. Follow our progress and discover every step of this transformation!"
+        },
+        "4": {
+            "date": "August 23, 2024",
+            "title": "Bulles et Délices evening",
+            "description": "Join us for an evening of conviviality and gourmet delights! L'Odyssée Sirocco is organizing a “Soirée Bulles et Délices” to support our participation in the 4L Trophy 2024. This festive event will be held on Friday August 23, 2024 at the Pressoir Communal de Celles-sur-Ource, located at 86 Grande Rue."
         }
     },
     "header": {
