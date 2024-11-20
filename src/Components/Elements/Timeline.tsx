@@ -169,43 +169,43 @@ export const Timeline = () => {
           </Popover.Root>
         </VerticalTimelineElement>
 
-        {/* P Prepa */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
-            isSmallScreen && "hover:bg-blue-tertiary"
-          }`}
-          contentStyle={{
-            borderRadius: "10px",
-            border: "3px solid #002347",
-            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
-          }}
-          contentArrowStyle={{ borderRight: "9px solid #002347" }}
-          date={t("timeline.P.date")}
-          dateClassName="tl:py-2 tl:px-0 px-4 pt-0 pb-4"
-          iconStyle={{
-            background: "rgb(0, 63, 125)",
-            color: "#fbfbfb",
-            border: "3px solid #002347",
-            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
-          }}
-          icon={<GearIcon />}>
-          <Popover.Root>
-            <Popover.Trigger>
-              <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
-                <div className="m-4">
-                  <h3 className="vertical-timeline-element-title">{t("timeline.P.title")}</h3>
-                  <p>{t("timeline.P.description").split(/(?<=[.?!])\s+/)[0]}</p>
-                </div>
-              </button>
-            </Popover.Trigger>
-            <Popover.Content
-              side={isSmallScreen ? "bottom" : "left"}
-              className="bg-blue-secondary text-gray-light max-w-[350px]">
-              <p>{t("timeline.P.description")}</p>
-            </Popover.Content>
-          </Popover.Root>
-        </VerticalTimelineElement>
+{/* P Prepa */}
+<VerticalTimelineElement
+  className="vertical-timeline-element--work in-progress"
+  textClassName={`bg-blue-secondary text-gray-light p-0 transition-colors ${
+    isSmallScreen && "hover:bg-blue-tertiary"
+  }`}
+  contentStyle={{
+    borderRadius: "10px",
+    border: "3px solid #00bfff", // Light blue border color
+    boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+  }}
+  contentArrowStyle={{ borderRight: "9px solid #00bfff" }} // Light blue arrow border color
+  date={t("timeline.P.date")}
+  dateClassName="tl:py-2 tl:px-0 px-4 pt-0 pb-4"
+  iconStyle={{
+    background: "rgb(0, 63, 125)",
+    color: "#fbfbfb",
+    border: "3px solid #00bfff", // Light blue border color
+    boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+  }}
+  icon={<GearIcon />}>
+  <Popover.Root>
+    <Popover.Trigger>
+      <button className="w-full hover:bg-blue-tertiary transition-colors rounded-[10px]">
+        <div className="m-4">
+          <h3 className="vertical-timeline-element-title">{t("timeline.P.title")}</h3>
+          <p>{t("timeline.P.description").split(/(?<=[.?!])\s+/)[0]}</p>
+        </div>
+      </button>
+    </Popover.Trigger>
+    <Popover.Content
+      side={isSmallScreen ? "bottom" : "left"}
+      className="bg-blue-secondary text-gray-light max-w-[350px]">
+      <p>{t("timeline.P.description")}</p>
+    </Popover.Content>
+  </Popover.Root>
+</VerticalTimelineElement>
 
         {/* E Departure */}
         <VerticalTimelineElement
