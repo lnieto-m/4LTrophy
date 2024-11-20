@@ -49,7 +49,9 @@
     "home": {
         "embed": {
             "title": "Suivez nous sur Instagram",
-            "description": "Participez à notre voyage à travers le désert marocain. Découvrez notre projet, suivez chaque étape de notre préparation, et rejoignez-nous dans cette aventure exceptionnelle !"
+            "description": "Participez à notre voyage à travers le désert marocain. Découvrez notre projet, suivez chaque étape de notre préparation, et rejoignez-nous dans cette aventure exceptionnelle !",
+            "title2": "Participez à notre aventure",
+            "description2": "Pour rendre cette expédition possible, nous avons besoin de récolter des fonds. Chaque euro compte : 1 euro = 1 km, et nous devons parcourir 5000 km !"
         },
         "intro": "Deux cousins, une 4L, et une aventure inoubliable à travers le désert marocain. Suivez notre préparation, nos progrès et soutenez-nous tout au long de ce défi humanitaire."
     },

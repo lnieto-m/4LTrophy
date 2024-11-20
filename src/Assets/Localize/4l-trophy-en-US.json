@@ -49,7 +49,9 @@
     "home": {
         "embed": {
             "title": "Follow us on Instagram",
-            "description": "Join us on our journey through the Moroccan desert. Find out more about our project, follow every step of our preparations, and join us on this exceptional adventure!"
+            "description": "Join us on our journey through the Moroccan desert. Find out more about our project, follow every step of our preparations, and join us on this exceptional adventure!",
+            "title2": "Join us on our adventure",
+            "description2": "To make this expedition possible, we need to raise funds. Every euro counts: 1 euro = 1 km, and we need to cover 5000 km!"
         },
         "intro": "Two cousins, one 4L, and an unforgettable adventure across the Moroccan desert. Follow our preparations, our progress and support us throughout this humanitarian challenge."
     },

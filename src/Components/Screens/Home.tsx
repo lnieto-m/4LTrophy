@@ -4,6 +4,7 @@ import { InstagramEmbed } from "react-social-media-embed";
 import "react-vertical-timeline-component/style.min.css";
 import { Timeline } from "../Elements/Timeline";
 import { useTranslation } from "react-i18next";
+import { GlobeIcon, MoonIcon } from "@radix-ui/react-icons";
 
 export const Home = () => {
   const { t, i18n } = useTranslation();
@@ -42,6 +43,11 @@ export const Home = () => {
         <section className="flex flex-col flex-1 justify-center p-3 text-gray-light">
           <Heading className="my-2">{t("home.embed.title")}</Heading>
           <p>{t("home.embed.description")}</p>
+          <Heading className="my-2">{t("home.embed.title2")}</Heading>
+          <p>{t("home.embed.description2")}</p>
+          <a href="https://www.lepotcommun.fr/pot/v6t260f8" className="text-brown-light underline inline-flex items-center">
+            <GlobeIcon className="mr-2" />Le Pot Commun
+          </a>
         </section>
         <InstagramEmbed
           lang={i18n.language}
