@@ -139,17 +139,17 @@ export const Timeline = () => {
           }`}
           contentStyle={{
             borderRadius: "10px",
-            border: "3px solid #002347",
-            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+            border: "3px solid #0f9f4f",
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)",
           }}
-          contentArrowStyle={{ borderRight: "9px solid #002347" }}
+          contentArrowStyle={{ borderRight: "9px solid #0f9f4f" }}
           date={t("timeline.4.date")}
           dateClassName="tl:py-2 tl:px-0 px-4 pt-0 pb-4"
           iconStyle={{
-            background: "rgb(0, 63, 125)",
+            background: "rgb(25,197,98)",
             color: "#fbfbfb",
-            border: "3px solid #002347",
-            boxShadow: "0 3px 10px 0 rgba(251, 251, 251, 0.5)",
+            border: "3px solid #0f9f4f",
+            boxShadow: "0 3px 10px 0 rgba(19, 206, 102, 0.5)",
           }}
           icon={<MoonIcon />}>
           <Popover.Root>
